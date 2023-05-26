@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/img/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Antalitan | Kunal Verma's Portfolio</title>
+  </head>
+  <body>
+    
+    <body
+    data-bs-spy="scroll"
+    data-bs-target="#toggleMobileMenu"
+    data-bs-offset="0"
+    tabindex="0"
+  >
+
+
+    <!-- ==== Header ==== -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+        <div class="container">
+          <a class="navbar-brand" href="/">
+            <img  src="./src/img/logo.svg" style="width:50px;height:50px;" alt="logo" />
+          </a>
+          <button id="theme-btn" class="align-self-center ms-auto me-3">
+            <i class="bi bi-moon-fill"></i>
+            <i class="bi bi-brightness-high-fill"></i>
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-table="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item">
+                <a href="#hero" aria-current="page" class="nav-link active"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#work" class="nav-link">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a href="#project" class="nav-link">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- ==== End Header ==== -->
+
+    
+    
+      <!-- ==== Hero ==== -->
+      <div id="hero">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-6 mt-lg-0 d-grid align-content-center">
+              <section
+                class="text-center text-lg-start"
+                data-aos="zoom-in"
+                data-aos-delay="1000"
+                data-aos-duration="1000"
+              >
+                <p>Hello! 👋  My name is<!-- ====<img src="https://github.com/wervlad/wervlad/assets/24524555/766d336d-b87d-44ba-807c-c51de2bc6b4d" width="32px" alt="👋">==== --></p>
+                <h1>Kunal Verma</h1>
+                <p><span id="headline"></span></p>
+                <br>
+                <div class="social-links mx-auto mx-lg-0">
+                  <div class="row">
+                    <div class="col-3">
+                      <a href="mailto:kunalstacks@gmail.com" target="_blank">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a href="https://github.com/kay-verma" target="_blank">
+                        <i class="bi bi-github"></i>
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a
+                        href="https://www.linkedin.com/in/kunal-verma-4b9108151/"
+                        target="_blank"
+                      >
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+                    </div>
+                    <div class="col-3">
+                      <a href="https://twitter.com/antalitan" target="_blank">
+                        <i class="bi bi-twitter"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-12 col-lg-6 d-grid align-content-center">
+              <div
+                class="img-container"
+                id="img-wrapper"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+                data-aos-delay="2000"
+              >
+                <div id="canvas"></div>
+
+                <div class="curtain">
+                  <img
+                    src="./src/img/kunal.jpg"
+                    crossorigin=""
+                    data-sampler="simplePlaneTexture"
+                    width="400"
+                    height="400"
+                    alt="Kunal Verma"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div id="root"></div>
+      <!-- ==== End Hero ==== -->
+
+       <!-- Include the React and ReactDOM libraries -->
+  <script src="https://unpkg.com/react@17.0.2/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Include Babel to transpile JSX -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Include the JSX and JavaScript files -->
+  
+    <script type="module" src="./src/js/main.js">
+    </script>
+    
+    <script type="module" src="/src/main.jsx"></script>
+
+     <!-- ==== Start footer ====  -->
+     <style>
+      #footer {
+        background-color: #000000; /* Change to your desired blackish grey color */
+        color: white; /* Change the text color to ensure readability */
+      }
+    </style>
+    
+     <footer id="footer">
+      <div class="container">
+        <div class="row row-cols-0 row-cols-lg-1">
+          <div>
+            <h6 style="font-size: 12px;">Copyright © 2023 Kunal Verma. All Rights Reserved</h6>
+          
+          </div>
+        </div>
+      </div>
+  </body>
+  
+</html>

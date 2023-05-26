@@ -1,0 +1,45 @@
+{
+  "name": "3dfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@react-three/drei": "^9.69.2",
+    "@react-three/fiber": "^8.13.0",
+    "framer-motion": "^9.1.7",
+    "maath": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2",
+    "react-tilt": "^0.1.4",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.149.0"
+    
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@popperjs/core": "^2.11.6",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.3",
+    "curtainsjs": "^8.1.4",
+    "postcss-discard-comments": "^5.1.2",
+    "postcss-load-config": "^3.1.4",
+    "sass": "^1.57.1",
+    "typed.js": "^2.0.12",
+    "vite-plugin-minify": "^1.5.2",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
+  }
+}
