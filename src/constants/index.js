@@ -166,10 +166,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jan 2021 - July 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed high-volume and scalable software for connected payment systems, contributing to innovative solutions used by millions of users daily.",
+      "Collaborated with cross-functional teams to design and implement user-facing experiences, enhancing product usability and functionality.",
+      "Utilized technologies such as React/Node, Java, SQL, and ReST to build web applications and back-end services, ensuring seamless integration and performance.",
+      "Actively participated in estimating engineering efforts, delivering high-quality code changes, and resolving production issues to ensure system reliability.",
     ],
   },
   {
