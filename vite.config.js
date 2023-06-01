@@ -7,7 +7,7 @@ export default defineConfig({
   root: 'src',
   plugins: [react()],
   build: {
-    outDir: './dist',
+    outDir: '../dist',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/js/main.js'), // Path to main.js file
