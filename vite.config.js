@@ -1,18 +1,22 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import { resolve } from 'path';
+const path = require('path')
+import minify from 'vite-plugin-minify'
 
+module.exports = {
+  root: 'src',
 
-export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    minify({
+      removeComments: true,
+    }),
+  ],
+
   build: {
-    outDir: 'dist',
-    rollupOptions: {
-      input: {
-        main: resolve(__dirname, 'src/js/main.js'), // Path to main.js file
-        app: resolve(__dirname, 'src/main.jsx'),
-        index: resolve(__dirname, 'src/index.css'), // Path to main.jsx file
-      },
+    outDir: '../dist',
+  },
+
+  resolve: {
+    alias: {
+      '@': path.join(__dirname, 'src'),
     },
   },
-});
+}
